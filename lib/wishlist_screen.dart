@@ -37,7 +37,7 @@ class _WishlistScreenState extends State<WishlistScreen> {
         child: wishlistItems.isEmpty
             ? const Center(
           child: Text(
-            "No items in wishlist 😔",
+            "No items in wishlist",
             style: TextStyle(fontSize: 18, fontWeight: FontWeight.w500),
           ),
         )
